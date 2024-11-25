@@ -1,0 +1,136 @@
+
+
+#full{
+    margin: 0; /* Remove default margins */
+    height: 100vh;
+    width: 100%; /* Set the height of the body to the viewport height */
+    background-image: url('static/mainImage.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    padding: 0px;
+    margin: 20px;
+    display: flex;              /* Enables Flexbox */
+    justify-content: start;    /* Centers horizontally */
+    align-items: center;
+}
+
+.image-container {
+    width: 160px; /* Width of the container */
+    height: 50px; /* Height of the container */
+    margin: 0; /* Remove default margins */
+    background-image: url('static/img.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    margin-right: 60px; /* Adds space to the right of the first button */
+    padding: 10px 20px;
+
+}
+
+.styled-button {
+    background-color: #c7d11a; /* Primary color */
+    color: white; /* Text color */
+    font-size: 16px; /* Text size */
+    padding: 12px 24px; /* Button padding */
+    border: none; /* Removes default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition effect */
+    margin-right: 10px; /* Adds space to the right of the first button */
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Hover effect */
+.styled-button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover */
+    transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+/* Active effect */
+.styled-button:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduces shadow on click */
+    transform: scale(0.98); /* Slight shrink on click */
+}
+    
+.main{ 
+    margin-right: 50px; /* Adds space to the right of the first button */
+    padding-left: 80px;
+    display: flex;              /* Enables Flexbox */
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;
+    color: lightsalmon; 
+    font-size: 50px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-decoration: none; 
+}
+
+.main:hover{
+    color: teal;
+    text-decoration: dashed;
+    text-decoration: underline;
+}
+
+.mainbt1{
+    
+    padding: 40px;
+    margin: 0px;
+    display: flex;              /* Enables Flexbox */
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;
+    margin-right: 30px; /* Adds space to the right of the first button */
+    padding-left: 190px;
+
+
+}
+
+.mainbt2{
+    display: flex;              /* Enables Flexbox */
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;
+    margin-right: 30px; /* Adds space to the right of the first button */
+    padding-left: 150px;
+}
+
+.styled-buttons {
+    height: 100px;
+    width: 190px;
+    background-color: #c7d11a; /* Primary color */
+    color: black; /* Text color */
+    font-size: 22px; /* Text size */
+    padding: 12px 24px; /* Button padding */
+    border: none; /* Removes default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition effect */
+    margin-right: 120px; /* Adds space to the right of the first button */
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* Hover effect */
+.styled-buttons:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover */
+    transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+/* Active effect */
+.styled-buttons:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduces shadow on click */
+    transform: scale(0.98); /* Slight shrink on click */
+}
